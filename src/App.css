@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta+Malar&display=swap");
+:root {
+  --gray: #04040a;
+  --dark: #3E54AC;
+
+  --blue: #3E54AC;
+  --navy-blue: #BFACE2;
+  --light: #ECF2FF;
+  --LIGHT-Blue: #3E54AC;
+}
+body,
+h6,
+h5,
+h4,
+h3,
+h2,
+h1,
+p,
+li {
+  font-family: "Mukta Malar", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  color: black;
+  list-style: none;
+}
+main {
+  background-color: var(--dark);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  min-height: calc(100vh - 4rem);
+}
+main > .card {
+  width: 95vw;
+  max-width: 500px;
+  background-color: #ECF2FF;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+img {
+  border-radius: 50%;
+  width: 6rem;
+  margin: 1rem 1rem;
+  outline: 2px solid var(--navy-blue);
+  outline-offset: 4px;
+}
+
+.section-right {
+  margin: 0rem 1rem 0px;
+  vertical-align: top;
+  text-align: justify;
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin: 0rem 1rem 0px;
+}
+.buttons {
+  width: 10rem;
+  padding: 0.5rem 0px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: all 0.15s linear;
+  border-radius: 2px;
+}
+.buttons > p {
+  display: block;
+  font-weight: bold;
+}
+
+.detail {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin: 1.5rem 0.5rem;
+}
+.detail a {
+  color: var(--LIGHT-Blue);
+  text-decoration: none;
+}
+
+.last-pushed {
+  font-weight: bold;
+}
